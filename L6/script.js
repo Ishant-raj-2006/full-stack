@@ -1,0 +1,1 @@
+alert ("Hello Ishant  This is Lecture 6 of Full Stack With Harry ")
