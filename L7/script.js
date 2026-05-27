@@ -1,0 +1,1 @@
+alert ("In This Lecture we learn Inline & Block Elements ")
