@@ -1,0 +1,12 @@
+div{
+    background-color: rgba(164, 230, 10, 0.781);
+}
+span{
+    color: rgb(199, 120, 24);
+    background-color: rgb(216, 199, 145);
+    font-size: 30px;
+}
+body{
+    color: rgb(66, 7, 134);
+    background-color: rgb(164, 240, 240);
+}
