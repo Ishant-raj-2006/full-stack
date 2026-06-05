@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css selector </title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: aqua;
+        }
+        /* Id selector  */
+        .Pink{
+            background-color: pink;
+        }
+        /* paraGraph selector */
+        div > p{
+            color: white;
+            background-color: black;
+        }
+        /* Descendant Selector */
+        div p {
+            color: rgb(214, 248, 61);
+        }
+        /* Universal Selector */
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: rgb(139, 141, 141)
+        }
+
+        /* active */
+        a:active{
+            background-color: rgb(252, 104, 6);
+        }
+
+        /* Hover */
+        a:hover{
+            background-color: rgb(12, 223, 40);
+        }
+    </style>
+</head>
+<body>
+    <h1>This is lecture 17 of full satck </h1>
+    <div>
+        I am Div
+    </div>
+    <div class="Pink">
+        Hello Ishant how are you 
+        <p>Good Ishant </p>
+    </div>
+    <div class="Pink">
+        <article>
+          <p>Good Ishant </p>  
+        </article> 
+        
+    </div>
+    <div class="Pink">
+        Hello Ishant how are you 
+        <p>Good Ishant </p>
+    </div>
+    <div>
+        <a href="https://www.goggle.com"> Go to Goggle</a>
+    </div>
+</body>
+</html>
