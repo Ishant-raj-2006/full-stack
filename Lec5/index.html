@@ -12,7 +12,7 @@
 
     <!-- If we want to play audio when the page loads, then I will use `autoplay`.  -->
      <br><br>
-     <audio autoplay controls src="./song.mp3"></audio>
+     <audio autoplay muted controls src="./song.mp3"></audio>
      
 
      <!-- If we want to play audio in a loop, then I will use loop functions.  -->
@@ -29,7 +29,16 @@
 
 
        <!-- If we want to add a thumbnail for any videos without starting when the page is reloaded or loaded Then I will use the `poster` tag.  -->
-       <video width="400" height="300" autoplay loop  controls src="./Video.mp4" poster="./ima.jpg"></video>
+       <video width="400" height="300" autoplay  controls src="./Video.mp4" poster="./ima.jpg"></video>
        
+       <!-- Iframe  -->
+
+       <!-- जब हमें अपने website में YouTube video या फिर कोई और website use करना हो, जो already बना हुआ है, तब iframe का use करते हैं।  -->
+
+       <!-- Iframe में link add करने से पहले end के बाद वाले end के right side में जितने भी text होंगे, उसे हटा देंगे। & को भी साथ में लेकर घटाना है।  
+        और इसके बाद जहाँ पे "watch" लिखा हुआ है, "watch" से लेकर के "=" तक text हटा देंगे।  अब उसके बाद, youtube.com के बाद एक / होगा, and उसके बाद एक और / देना है, लिखना है embed. अब हमारा YouTube link ready है website में attach होने के लिए. -->
+
+       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TyMUY2CDrjc" frameborder="0" allowfullscreen></iframe> -->
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/TyMUY2CDrjc" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
