@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors, ID, and classes. </title>
+<style>
+    /* h1{
+        background-color: yellow;
+    }
+    p{
+        background-color: aquamarine;
+    } */
+.Hello{
+    background-color: aquamarine;
+
+ }
+ #ishant{
+    background-color: blue;
+}
+</style>
+  <!-- यहाँ पे मैंने class बनाया है, hello, और उसी class को सारे tags में use किया है, जैसे HTML में HTML tag 5, 6 हैं। अगर मैं बिना class में use कर रहा हूँ, तो वो सारे use हो पा रहे हैं। ऐसे ही है कि HTML tag में जितने भी हैं, सब बिना class के use हो पा रहे हैं। अगर मैं चाहता हूँ HTML में किसी को छोड़ना, तो वो easily मैं छोड़ सकता हूँ class बना करके, और class जिसको मैं define करूँगा, वो बस वहीं उसी में मैं update कर सकूँगा।  -->
+
+
+
+  <!-- किसी भी class को define करने के बाद, अगर उसमें मुझे कुछ भी changes करने हैं, तो उसके पहले हमें `.` लगाना पड़ता है। उसके बाद class का नाम लिखना पड़ता है। Calibrations लगाने के बाद उसमें update कर सकता हूँ। जब भी मुझे ID में कुछ changes करने होते हैं, तो उसके लिए मुझे `#` लगाने पड़ते हैं। उसके बाद ID का नाम calibrations, then उसमें changes करते हैं।  -->
+</head>
+<body>
+    <h1 class="Hello"> Html selectors and classes </h1>
+    <h1>Hello ishant Raj , How are you </h1>
+    <h1 class="Hello">Hello ishant Raj , How are you this is other h1 tages  </h1>
+    <!-- यहाँ पे ID का ये होता है: जब हम class define कर देते हैं, and class define करने के बाद अगर हम किसी particular tag में update करना चाहते हैं, तो वो बिना ID बनाए मैं update करता हूँ, तो सारे tag में update होंगे। अगर मैं ID बना देता हूँ, तो वो particular उसी tag में update होंगे। इसलिए ID ज़रूरी होता है।  -->
+
+    <h1 class="Hello" id="ishant">Hello ishant Raj , How are you this is other h1 tages  1.1 </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eligendi doloribus nesciunt commodi nam maxime veniam totam suscipit sed vero? Nam tenetur laborum, iusto voluptatem nostrum at voluptas commodi aperiam?</p>
+</body>
+</html>
