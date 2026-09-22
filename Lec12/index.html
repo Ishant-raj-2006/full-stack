@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selecctors </title>
+    <style>
+        /* This is element Selectors  */
+       .Raj{
+        background-color: cadetblue;
+       }
+        h1{
+            background-color: aqua;
+        }
+        p{
+            background-color: chartreuse;
+        }
+        .Hello{
+        background-color: rgb(199, 90, 90);
+       }
+       #Ishant{
+        background-color: rgb(21, 236, 164);
+       }
+       /* This is Child Selector  */ 
+       
+       .pre>p{
+        background-color: burlywood;
+       }
+       /* <!-- Descendant Selector --> */
+       .dec p{
+        background-color: rgb(236, 179, 92);
+       }
+
+       /* Universal Selector */
+*{
+    background-color: rgb(157, 252, 252);
+    /* padding: 0%; */
+    
+}
+/* <!-- Pseuso Selectors  --> */
+    li:first-child{
+        background-color: darkmagenta;
+    }
+    li:last-child{
+        background-color: rgb(148, 235, 90);
+    } 
+    li:nth-child(2){
+        background-color: rgb(96, 194, 17);
+    }
+
+    /* Anchor States */
+    /* a:link{
+        color: rgb(252, 208, 252);
+    } */
+    a:visited{
+        color: rgb(60, 228, 9);
+    }
+    a:active{
+        color: red;
+    }
+    a:hover{
+        color: rgb(103, 151, 223);
+    }
+    /* Pseudo Element [Before &after] */
+    .fency::before{
+        content: 😊;
+    }.fency::after{
+        content: 🤣;
+    }
+    </style>
+    
+</head>
+<body> 
+    <!--  This is element Selectors   -->
+   <h1>Hello Ishant , Welcome to Lecture 12 </h1> 
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ullam nihil expedita, accusamus hic, impedit necessitatibus atque maxime voluptas iste delectus illo optio earum consequatur quia laboriosam consequuntur! Voluptatibus, ratione?</p>
+    <!-- This is element Selectors -->
+
+   <h2 class="Hello" id="Ishant">Thank <span style="color: red;">You </span>Raj</h2>
+   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit distinctio accusamus modi nostrum deleniti voluptatem voluptate, reprehenderit, consequatur voluptatum rem non dignissimos cumque voluptatibus voluptas et sed, quisquam molestiae temporibus.</h3>
+   <ul class="Raj">
+    <li>Raj</li>
+    <li>Ishant</li>
+    <li>Ishant Raj</li>
+   </ul>
+   <p  class="Hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sunt autem facere soluta error fugit iusto quia ab tempore id, magnam non tenetur atque. Error itaque cupiditate culpa amet commodi!</p>
+
+
+   <!--  This is Child Selector   -->
+   <div class="pre">
+    <p>child -1</p>
+    <p>child -2</p>
+   </div>
+
+
+
+   <!-- Descendant Selector -->
+    
+    <div class="dec">
+        <p>Hello Raj</p>
+        <p>How are You</p>
+        <div class="dece">
+            <p>I'm fine </p>
+        </div>
+    </div>
+    <!-- Pseuso Selectors  -->
+
+    <ul> 
+    <li>Shiddat</li>
+    <li>Rama</li>
+    <li>Haluman Ansh </li>
+    <li>VGI</li>
+    </ul>
+
+    <!-- Anchor States  -->
+    <a href="https://gopilotx.vercel.app/proposals">Normal Link</a> <br>
+    <a href="https://gopilotx.vercel.app/proposals">Visited Link</a> <br> 
+    <a href="https://gopilotx.vercel.app/proposals">Hover Link</a> <br>
+    <a href="https://gopilotx.vercel.app/proposals">Active Link</a> <br>
+
+
+<!-- Pseudo Element [Before &after] -->
+ <p class="fency ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vero magni ratione soluta sunt corporis minima ipsa tempore. Placeat dicta sit voluptates quisquam corporis, sunt blanditiis praesentium vel. Provident, illo.</p>
+</body>
+</html>
