@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Responsive Gallary</title>
+    <style>
+        body{
+            background-color: rgb(15, 15, 15);
+            color: wheat;
+        }
+        .gal{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+           
+
+        }
+        .gal img{
+            width: 100%;
+           max-width:300px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid rgb(223, 223, 9);
+        }
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         h1{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: yellowgreen;
+         }
+    </style>
+</head>
+<body>
+    <h1> Responsive Flexbox  Gallary</h1>
+    <div class="gal">
+        <img src="p1.jpg" alt="">
+        <img src="p2.jpg" alt="">
+        <img src="p3.jpg" alt="">
+        <img src="p4.jpg" alt="">
+        <img src="p5.jpg" alt="">
+        <img src="p6.jpg" alt="">
+        <img src="p7.jpg" alt="">
+        <img src="p8.jpg" alt="">
+        <img src="p9.jpg" alt="">
+        <img src="p10.jpg" alt="">
+    </div>
+</body>
+</html>
