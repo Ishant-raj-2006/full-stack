@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FlexBox</title>
+    <style>
+        body{
+            background-color: wheat;
+            color: yellowgreen;
+
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin: 10px;
+            font-size: 100px;
+            text-align: center;
+
+        }
+        
+        .box{
+            display: flex;
+            /* Agr Row ke element ko reverse krna h toh  "flex-direction:row-reverse;"  iska use karenge */
+            
+            flex-direction:row-reverse;
+            /* Agr column ke element ko reverse krna h toh  "flex-direction:row-reverse;"  iska use karenge */
+
+            /* flex-direction: column-reverse; */
+
+            /* agr   flex-wrap: wrap; use na krte hai toh  sb elemet kud ko apne size ke hisab se Adjust  kr leta hai */
+
+            flex-wrap: wrap;
+            justify-content: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Css FlexBox</h1>
+    <p> Columns room me lane ke liye  styling me Display flexs use karte hai  </p>
+    <div class="box">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        
+
+    </div>
+</body>
+</html>
