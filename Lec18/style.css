@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+/* Instagram Section */
+
+.instagram {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+/* Left Bar */
+
+.left_bar {
+    width: 20%;
+    height: 100vh;
+    /* background-color: aqua; */
+    border: 1px solid wheat;
+}
+
+.left_bar .items .material-symbols-outlined {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.left_bar .items {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 15px;
+    margin: 6px;
+}
+
+
+/* Logo */
+
+#logo {
+    font-family: "Black Ops One", system-ui;
+}
+
+
+/* Post */
+
+.post {
+    width: 55%;
+    height: 100vh;
+}
+
+
+/* Story */
+
+.post .story .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.post .story .items .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Story Image */
+
+.post .story .items .profile .img {
+    background-image: conic-gradient(red , yellow , green , blue, black);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    padding: 2px;
+
+}
+
+.post .story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    float: left;
+}
+
+/* Actual Image */
+
+.post .story .items .profile .img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    padding: 3px;
+}
+
+
+/* Main Post */
+
+.post .main_post {
+    width: 100%;
+}
+
+
+/* Suggestion Section */
+
+.suggestion_section {
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(121, 76, 9);
+}
