@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        body{
+            background-color: wheat;
+            color: black;
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(214, 16, 49);
+        }
+       
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            position: relative ;
+            top: 3rem;
+        } .box3{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(170, 18, 112);
+            position: absolute;
+            left:  15rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Position </h1>
+    <p>1. static : Default elements follows normal flow . <br>
+    2. relative : Moves element relative to its normal postition. <br>
+    3. absolute : Moves elementrelative to the nearest positioned acncestor. <br>
+    4. fixed : Sticks the element relative to the browser window (even on Scroll) <br>
+    5. Sticy : Acts like relative until a scroll threshold, then becomes fixed. </p>
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>
