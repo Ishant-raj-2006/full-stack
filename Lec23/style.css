@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    color: rgb(11, 70, 233);
+}
+
+.con{
+    width: 300px;
+    height: 100px;
+    border: 12px solid yellowgreen;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: rgb(226, 131, 43);
+
+}
+
+/* Object Fit */
+.con1{
+    width: 200px;
+    height: 200px;
+    border: 12px solid yellow;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+
+    
+}
