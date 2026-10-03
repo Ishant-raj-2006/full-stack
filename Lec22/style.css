@@ -1,0 +1,40 @@
+:root{
+    --color1: rgb(19, 18, 18);
+    --color2: rgb(101, 19, 207);
+    --color3:yellow;
+}
+body{
+    background-color: aqua;
+    color: black;
+
+} 
+
+.container p{
+    
+    background-color: var(--color1);
+    color: var(--color2);
+}
+.con2 p{
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+
+/* Float proparty */
+.wrapper{
+    width: 90px;
+    margin: auto;
+}
+img{
+    float: right;
+    width: 500px;
+    border-radius: 10%;
+    border: 8px solid yellowgreen;
+}
+
+p #main{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+
+}
