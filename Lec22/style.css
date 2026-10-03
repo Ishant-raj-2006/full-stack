@@ -38,3 +38,8 @@ p #main{
     margin-top: 5rem;
 
 }
+
+.shadow h1{
+    background-color: chartreuse;
+    box-shadow: rgb(14, 52, 177) 0 10px 17px 8px ;
+}
