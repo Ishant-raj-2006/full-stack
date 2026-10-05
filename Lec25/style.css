@@ -1,0 +1,23 @@
+body{
+    background-color:aqua;
+    color: black;
+} 
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    transition:transform 3s ease;
+}
+.box:hover{
+    border: 2px solid yellowgreen;
+    color: rgb(43, 226, 98);
+    background-color: rgb(71, 26, 175);
+    /* जिस direction में अपने box को move करना होगा, उस उसके हिसाब से, वहां पे pixel लेंगे अगर transform लिखते हैं, वहां पे कोई particular direction mention नहीं करते हैं, जैसे x, y, z, तो ये by default x में move होता है। अगर इसके अंदर 100 pixel देने के बाद comma देकर लिखते हैं 100 pixel, तो ये x and y दोनों में move होगा।  */
+    transform: translate(100px , 100px);
+    transform: scale(1,2);
+    transform: rotate(45deg);
+}
