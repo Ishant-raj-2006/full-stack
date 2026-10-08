@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+    color: black;
+}
+
+img{
+    width: 60vh;
+    height: 100%;
+}
+
+/* Extra small devices  */
+@media (max-width:575px){
+    body{
+
+        background-color: yellow;
+
+    }
+}
+
+/* Small device  */
+@media(min-width:576x) and (max-width:767px){
+    body{
+        background-color: rgb(235, 116, 136);
+    }
+}
+/* Medium device.  */
+@media(min-width:768x) and (max-width:991px){
+    body{
+        background-color: rgb(39, 19, 150);
+    }
+}
