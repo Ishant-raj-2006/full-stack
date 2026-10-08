@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    color: black;
+}
+.box{
+    width: 100vh;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    border-radius: 10%;
+    justify-content: center;
+    /* margin: 50px auto; */
+    animation: Ishant 2s infinite ease;
+    position: relative;
+    animation: Ishant 5s linear 1s ease alternate;
+}
+@keyframes Ishant{
+    0%{
+        /* transform: translate(0); */
+        left: 0px;
+        top: 0px;
+        background-color: rgb(185, 115, 34);
+
+    }
+    25%{
+        left: 200px;
+        top: 0px;
+        background-color: blue;
+        /* transform: translate(); */
+    }
+    50%{
+        /* transform: translate(150px); */
+        left: 200px;
+        top: 200px;
+        background-color: yellowgreen;
+    }
+    75%{
+        left: 0px;
+        top: 200px;
+        background-color: rgb(235, 89, 149);
+    }
+    100%{
+        /* transform: translateX(300px); */
+        left: 0px;
+        top: 0px;
+        background-color: rgb(167, 67, 10);
+    }
+}
