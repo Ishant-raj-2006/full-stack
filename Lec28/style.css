@@ -248,20 +248,29 @@ min-width: 300px;
     font-size: var(--font-xl);
     margin-bottom: 1rem;
 }
-.feature p{
+/* .feature p{
     font-size: var(--font-md);
     line-height: 1.5;
 
-}
+} */
 
-.feature-media media{
+/* .feture-media media{
     flex: 1;
     position: relative;
     min-width: 300px;
-}
+} */
 
-.feature-media img{
+/* .feture-media img{
     width: 100%;
     height: auto;
     z-index: 1;
+} */
+
+.feture-media video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 75%;
+    z-index: 0;
 }
+
