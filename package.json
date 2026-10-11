@@ -1,0 +1,25 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "Project  1. (In lec 15 )\r ![alt text](image.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishant-raj-2006/full-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ishant-raj-2006/full-stack/issues"
+  },
+  "homepage": "https://github.com/Ishant-raj-2006/full-stack#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
