@@ -18,3 +18,8 @@ Project 4 In Lec 28
 Project 5 in Tailwind Css
 ![alt text](./Image/image6.png)
 
+
+Project 6 in Tailwind Css
+![alt text](./Image/image8.png)
+
+![alt text](./Image/image9.png)
