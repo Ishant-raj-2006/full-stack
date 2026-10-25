@@ -19,3 +19,9 @@ console.log(laptop)
 // Spread operator  ka use kr ke three dot se kisi bhi object ko kisi dusare object me copy kr sakte hai jaise ki niche maine ek new object banya hai laptop2 naam se aur ab mujhe bs uss ka ek part update krna tha toh maine spread operator ka use kiya hai aur iss me mera kaam 2 line me coplite ho gya hai 
 const laptop2 = {...laptop, ram :"20 GB"}
 console.log(laptop2)
+
+
+// Disgusting. इस operator को लाने का यह मतलब था कि मैं laptop का पूरा print नहीं करना चाहता हूँ, laptop का model, price और SSD print करना चाहता हूँ। उसमें `laptop.model name, laptop.RAM, laptop.SSD` लिखना पड़ता था। इसी से सब को बार-बार `laptop` ना लिखना पड़ा है। इसलिए आया disgusting operator. 
+
+const {Model_name , price , Ram} = laptop
+console.log(Model_name,price,Ram )
