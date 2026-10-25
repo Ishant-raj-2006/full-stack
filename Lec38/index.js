@@ -13,3 +13,5 @@ const laptop ={
     ssd : "512 GB",
     price : 90000
 }
+
+console.log(laptop)
