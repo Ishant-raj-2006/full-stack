@@ -17,7 +17,9 @@ console.log("-------------------------------------------------------------------
 for(let ele in phone){
     console.log(ele )
 }
+
 console.log("------------------------------------------------------------------------")
+
 for(let ele in phone){
     console.log(phone[ele] )
 }
