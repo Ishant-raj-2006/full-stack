@@ -7,6 +7,11 @@ const phone = {
     ram : '16 GB',
     rom : '128 GB'
 }
-for(let key in phone){
-    console.log(key, phone[key]);
+// for(let key in phone){
+//     console.log(key, phone[key]);
+
+// }
+
+for(let ele in phone){
+    console.log(ele , phone[ele])
 }
