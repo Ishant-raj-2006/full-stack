@@ -2,6 +2,6 @@
 
 
 const arr = [12,23,565,897,54,646,];
-for(let valuue of arr){
-    console.log(valuue)
+for(let value of arr){
+    console.log(value)
 }
