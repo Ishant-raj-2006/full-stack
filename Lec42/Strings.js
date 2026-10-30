@@ -4,7 +4,7 @@
 // single quotes, (' ')
 // Backticks for template literals (` `)
 
-let str1 = "Hello Ishant "
+let str1 = "Hello Ishant " 
 let str2 = 'Hello Ishu '
 let str3 = `Hello Annu`
 
