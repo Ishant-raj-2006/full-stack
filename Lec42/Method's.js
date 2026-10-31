@@ -7,4 +7,4 @@
 // 6. Trim(): Removes whitespace from both ends of the string.
 
 let str = "Ishant Raj"
-console.log(str.length)
+console.log(str.length);
