@@ -37,5 +37,19 @@
     <div class="clock-comtainer">
         <h1 class="clock">00:00:00</h1>
     </div>
+    <script>
+        let element = document.querySelector('.clock')
+        setInterval(() =>{
+            let time = new Date();
+            const options = {
+                timeZone : 'Asia/Kolkata',
+                hour:'2-digit',
+                minute:'2-digit',
+                second:'2-digit'
+            }
+            element.textContent = (time.toLocaleTimeString('en-us',options))
+            // console.log(time.toLocaleTimeString('en-us',options))
+        },1000)
+    </script>
 </body>
 </html>
