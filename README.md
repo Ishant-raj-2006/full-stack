@@ -44,7 +44,4 @@ Project 10
 
 
 
-git add .
-git commit -m "Suru krna easy hota hai but end krna Bahut Muskil hota hai "
-git branch -M main
-git push origin main
+c
