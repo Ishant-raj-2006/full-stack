@@ -4,4 +4,5 @@ console.log("All Childs :-");
 console.log(con.children)
 console.log("first child = ",con.firstElementChild)
 
-con.firstElementChild.textContent = ""
+// con.firstElementChild.textContent = ""
+
