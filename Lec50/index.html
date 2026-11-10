@@ -23,7 +23,12 @@
         h2.setAttribute('class','test');
         h2.setAttribute('id','testing')
         console.log("Brand New Element = ",h2);
-        
+
+        let container = document.querySelector('.container');
+        // container.append(h2);
+        // container.prepend(h2);
+        // container.before(h2);
+        container.before(h2);
     </script>
 </body>
 </html>
